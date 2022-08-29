@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <h2 class="subtitle">Your Feed</h2>
+
+    <div class="container">
+        <section class="colum1">
+            <div class="card" id="user-card"> 
+                <img src="user-circle.png" id="user-image" alt="user avatar">
+                <p><a href="#">Add an avatar</a></p>
+                    <h2>James Doe</h2> 
+            </div>
+        </section>
+        <section class="colum2">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Neil M</h3>
+                    <div>
+                        <span id="likes0">9</span> Likes
+                    </div>
+                    <button class="btn" onclick="addLike(0)">Like!</button>
+                </div>
+                <div class="card-body">
+                    I just sep upthis new record bot,let me know what you all thing <a href="#">link.</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nichole K</h3>
+                    <div>
+                        <span id="likes1">12</span> Likes
+                    </div>
+                    <button class="btn" onclick="addLike(1)">Like!</button>
+                </div>
+                <div class="card-body">
+                    just finished my <a href="#">next comics,</a> check it out.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Jim R</h3>
+                    <div>
+                        <span id="likes2">9</span> Likes
+                    </div>
+                    <button class="btn" onclick="addLike(2)">Like!</button>
+                </div>
+                <div class="card-body">
+                    I can't stop listening to the <a href="#">new album.</a>who else is liking it?
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
